@@ -20,7 +20,7 @@ This is a task gotten from Frontend Mentor to build a Faq Accordance Car Main to
 
 ### Links
 
-- Live Site URL:(https://peterforyou.github.io/Single-preview-card-/)
+- Live Site URL:(https://peterforyou.github.io/Huddle-landing-page/)
 
 ### Built with
 
