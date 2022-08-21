@@ -1,0 +1,235 @@
+* {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+}
+body {
+      font-family: Arial, Helvetica, sans-serif;
+}
+.bg-light {
+padding: 8px 20px;
+background-color: transparent;
+border: 2px solid hsl(321, 100%, 78%);
+border-radius: 3rem;
+color: hsl(321, 100%, 78%);
+}
+.bg-light:hover {
+background-color: hsl(207, 100%, 98%);
+color: #000;
+border: #000 solid 2px;
+}
+.bg-dark {
+padding: 15px 40px;
+background-color: hsl(322, 100%, 66%);
+color: #fff;
+border: none;
+border-radius: 3rem;
+}
+.bg-dark:hover {
+background-color:  hsl(192, 100%, 9%);
+color: #fff;
+}
+.top {
+display: flex;
+justify-content: space-between;
+padding: 20px 10px;
+margin-bottom: 40px;
+max-width: 1000px;
+margin: auto;
+}
+#container {
+max-width: 1000px;
+margin: auto;
+}
+#container-1 {
+margin:  0px auto;
+padding: 40px 0px;
+background-color: hsl(207, 100%, 98%);
+}
+.section-1 {
+margin: 40px auto;
+text-align: center;
+padding: 20px 50px;
+}
+.section-1 p {
+margin: 0px 150px;
+padding: 20px 0px;
+}
+.image {
+width: 700px;
+margin: auto;
+}
+.image img {
+width: 100%;
+margin: auto;
+}
+.community {
+display: flex;
+max-width: 700px;
+margin: 50px auto;
+padding: 10px 20px;
+justify-content: space-between;
+align-items: center;
+}
+.community h1 {
+font-size: 50px;
+}
+.grow {
+display: flex;
+max-width: 800px;
+margin: 0px auto;
+padding: 0px 20px;
+justify-content: space-between;
+align-items: center;
+border: none;
+}
+.grow h2 {
+padding-bottom: 10px;
+}
+.grow div:first-child {
+width: 300px;
+}
+.grow div:last-child {
+width: 300px;
+}
+.grow div:last-child img {
+width: 100%;
+}
+.flow {
+display: flex;
+max-width: 800px;
+margin: 0px auto;
+padding: 80px 0px;
+justify-content: space-between;
+align-items: center;
+border: none;
+}
+.flow div:first-child  {
+width: 300px;
+}
+.flow div:first-child img {
+width: 100%;
+}
+.flow div:last-child {
+width: 300px;
+}
+.flow h2 {
+padding-bottom: 10px;
+}
+.users {
+display: flex;
+max-width: 800px;
+margin: 0px auto;
+padding: 0px 20px;
+justify-content: space-between;
+align-items: center;
+border: none;
+}
+.users h2 {
+padding-bottom: 10px;
+}
+.users div:first-child {
+width: 300px;
+}
+.users div:last-child {
+width: 300px;
+}
+.users div:last-child img {
+width: 100%;
+}
+.section-5 {
+margin: 40px auto;
+margin-bottom: 60px;
+text-align: center;
+padding: 20px 50px;
+
+}
+.section-5 p {
+margin: 0px 150px;
+padding: 20px 0px;
+}
+.section-5 h1 {
+padding: 20px 0px;
+}
+footer {
+color: #fff;
+}
+.last-man {
+display: flex;
+justify-content: space-between;
+gap: 0px 390px;
+padding: 40px 10px;
+max-width: 1000px;
+margin: auto;
+}
+#container-3 {
+background-color:  hsl(192, 100%, 9%);
+margin-top: -10px;
+}
+.last-man div img {
+      filter: brightness(0) invert(1);
+      padding-bottom: 20px;
+}
+.last-man p {
+padding-bottom: 10px;
+line-height: 25px;
+color:  hsl(210, 73%, 43%);
+}
+.last-man h2 {
+padding: 20px 0px;
+}
+.last-man  h5 {
+display: flex;
+padding: 5px 0px;
+color: hsl(210, 73%, 43%);;
+}
+.last-man h5 img {
+padding-right: 10px;
+}
+i {
+padding: 30px 0px;
+padding-right: 20px;
+}
+form input {
+padding: 10px 10px;
+margin-top: 20px;
+background-color: #fff;
+border: none;
+border-radius: 3px;
+}
+.bg-pink {
+padding: 12px 30px;
+background-color: hsl(322, 100%, 66%);
+color: #fff;
+border: none;
+border-radius: 0.2rem;
+}
+.bg-pink:hover {
+background-color: hsl(207, 100%, 98%);
+color: #000;
+}
+#picture1 {
+      background: url(./images/bg-section-top-desktop-1.svg) no-repeat;
+      width: 100%;
+      height: 160px;
+}
+#picture2 {
+      background: url(./images/bg-section-bottom-desktop-1.svg) no-repeat;
+      width: 100%;
+      height: 200px;
+}
+#picture3 {
+      background: url(./images/bg-section-top-desktop-2.svg) no-repeat;
+      width: 100%;
+      height: 150px;
+}
+#picture4 {
+      background: url(./images/bg-section-bottom-desktop-2.svg) no-repeat;
+      width: 100%;
+      height: 200px;
+}
+#picture5 {
+      background: url(./images/bg-footer-top-desktop.svg) no-repeat;
+      width: 100%;
+      height: 160px;
+}

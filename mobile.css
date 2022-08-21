@@ -1,0 +1,155 @@
+.top div img {
+      width: 150px;
+}
+.bg-light {
+      padding: 5px 5px;
+      background-color: transparent;
+      border: 2px solid hsl(321, 100%, 78%);
+      border-radius: 3rem;
+      font-size: 12px;
+      color: hsl(321, 100%, 78%);
+}
+#container {
+      max-width: 400px;
+      margin: auto;
+}
+.section-1 {
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px 50px;
+}
+.section-1 p {
+      margin: 10px 0px;
+      padding: 20px 0px;
+}
+.image {
+      width: 300px;
+      margin: auto;
+}
+.image img {
+      width: 100%;
+      margin: auto;
+}
+.community {
+      display: block;
+      max-width: 200px;
+      margin: auto;
+      padding: 20px 20px;
+      justify-content: space-between;
+      align-items: center;
+}
+.community div {
+      padding-bottom: 70px;
+}
+.grow {
+      display: flex;
+      flex-direction: column-reverse;
+      max-width: 350px;
+      margin: 0px auto;
+      padding: 0px 20px;
+      justify-content: space-between;
+      align-items: center;
+      border: none;
+}
+.grow img {
+      padding-bottom: 40px;
+}
+.grow h2 {
+      text-align: center;
+}
+.grow p {
+      text-align: center;
+}
+
+.flow {
+      display: block;
+      max-width: 350px;
+      margin: 0px auto;
+      padding: 0px 20px;
+      justify-content: space-between;
+      align-items: center;
+      border: none;
+      margin-top: -90px;
+      margin-bottom: 30px;
+}
+.flow img {
+      padding-bottom: 40px;
+}
+.flow h2 {
+      text-align: center;
+}
+.flow p {
+      text-align: center;
+}
+
+.users {
+      display: block;
+      max-width: 350px;
+      margin: 0px auto;
+      padding: 0px 20px;
+      justify-content: space-between;
+      align-items: center;
+      border: none;
+}
+.users img {
+      padding-top: 40px;
+}
+.users h2 {
+      text-align: center;
+}
+.users p {
+      text-align: center;
+}
+.last-man {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 0px;
+      padding: 40px 30px;
+      max-width: 350px;
+      margin: auto;
+}
+.last-man div:first-child {
+      margin-top: 50px;
+}
+.last-man div:last-child {
+      order: 1;
+}
+.bg-pink {
+      float: right;
+      padding: 12px 30px;
+      margin-top: 10px;
+      background-color: hsl(322, 100%, 66%);
+      color: #fff;
+      border-radius: 0.2rem;
+}
+form input {
+      width: 100%;
+}
+#picture1 {
+      background: url(./images/bg-section-top-mobile-1.svg) repeat;
+      width: 100%;
+      height: 110px;
+}
+#picture2 {
+      background: url(./images/bg-section-bottom-mobile-1.svg) no-repeat;
+      width: 100%;
+      height: 200px;
+}
+#picture3 {
+      background: url(./images/bg-section-top-mobile-2.svg) repeat;
+      width: 100%;
+      height: 100px;
+}
+#picture4 {
+      background: url(./images/bg-section-bottom-mobile-2.svg) no-repeat;
+      width: 100%;
+      height: 200px;
+}
+#picture5 {
+      background: url(./images/bg-footer-top-mobile.svg) repeat;
+      width: 100%;
+      height: 60px;
+}
+i {
+      padding-right: 20px;
+}
